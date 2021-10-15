@@ -3,22 +3,22 @@ import './App.css';
 
 function App() {
   return (
-    <div class="container">
-    <div class="frame">
-      <section class="header">
-        <button class="header-btn main-black-color">Add</button>
-        <h1 class="header-title">Todo List</h1>
-        <button id="clear-btn" class="header-btn main-red-color">
+    <div clasName="container">
+    <div clasName="frame">
+      <section clasName="header">
+        <button clasName="header-btn main-black-color">Add</button>
+        <h1 clasName="header-title">Todo List</h1>
+        <button id="clear-btn" clasName="header-btn main-red-color">
           Clear
         </button>
       </section>
-      <section class="add">
-        <form action="" class="add-form">
-          <input type="text" class="add-input" />
-          <button class="add-btn main-black-color">Add</button>
+      <section clasName="add">
+        <form action="" clasName="add-form">
+          <input type="text" clasName="add-input" />
+          <button clasName="add-btn main-black-color">Add</button>
         </form>
       </section>
-      <section class="todos"></section>
+      <section clasName="todos"></section>
     </div>
   </div>
 
